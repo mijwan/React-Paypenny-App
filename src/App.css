@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+.downloadButtons h1 {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 2rem;
+}
+.downloadButtons h3{
+  font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+/* ---------------------------------------------NavBar--------------------------------- */
+
+.custom-Navbar {
+  /* height: 10vh; */
+  background: #0f4a8a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand {
+  animation: rotate 5s infinite;
+  width: 100px;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate3d(0, 1, 0, 0deg);
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+.interact {
+  width: 50px;
+}
+i {
+  margin-right: 10px;
+}
+.rightImage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.rightImage img {
+  width: 100%;
+  margin: auto 0;
+  float: right;
+  margin-bottom: 2rem;
+}
+
+button {
+  background: black;
+  border-radius: 50px;
+  padding: 1rem 1.5rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  /* width: 33rem; */
+  margin: 2rem 0;
+}
+.benefitsCards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.benefits-header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 1em 0 1.5em 0;
+  color: #fff;
+}
+.benefitsCards h5 {
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 19px;
+    padding: 10px 0;
+}
+.benefitsCards p {
+  font-size: 15px;
+}
+.benefitsCards img {
+  width: 20%;
+  height: 20%;
+  margin-bottom: 1rem;
+}
+.benefite-half-card {
+  padding-bottom: 5em;
+}
+.benefits-container{
+  padding-bottom: 3%;
+}
+.why-choose-header-mainpage{
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 1em !important;
+}
+.qrcodeBox {
+  box-shadow: 1px 2px 19px 2px rgba(0, 0, 0, 0.212);
+  -webkit-box-shadow: 1px 2px 19px 2px rgba(0, 0, 0, 0.212);
+  -moz-box-shadow: 1px 2px 19px 2px rgba(0, 0, 0, 0.212);
+  border-radius: 20px;
+  background: white;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  width: 100%;
+  height: 40vh;
+}
+.justify-content-center h1{
+  font-size: 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+
+
+@media screen and (max-width: 850px) {
+  .qrcodeBox {
+    height: 40vh !important;
+    margin: 1rem 0;
+  }
+  .questionBox {
+    margin: 1rem 0;
+  }
+}
+.questionBox {
+  box-shadow: 1px 2px 19px 2px rgba(0, 0, 0, 0.212);
+  -webkit-box-shadow: 1px 2px 19px 2px rgba(0, 0, 0, 0.212);
+  -moz-box-shadow: 1px 2px 19px 2px rgba(0, 0, 0, 0.212);
+  border-radius: 20px;
+  background: white;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+  padding: 2rem;
+  height: 30vh;
+}
+@media screen and (max-width: 900px) {
+  .questionBox {
+    height: fit-content !important;
+  }
+  .questionBox h1 {
+    color: #0f4a8a;
+    font-size: 25px;
+  }
+  .questionBox p {
+    font-size: 15px !important;
+    font-weight: 300;
+  }
+  .qrcodeBox h3 {
+    font-weight: bold;
+  }
+}
+.questionBox h1 {
+  color: #0f4a8a;
+}
+.questionBox p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.qrcodeBox h3 {
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.bottomLine {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+.appStore {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.4rem;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.socials a {
+  color: black;
+  font-size: 30px;
+}
+.footerImage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: green; */
+  height: 20vh;
+}
+
+.footerBrand {
+  width: 60%;
+}
+p {
+  font-weight: 300;
+}
+@media screen and (max-width: 900px) {
+  .footerSecondBrand {
+    width: 100%;
+    object-fit: cover;
+  }
+}

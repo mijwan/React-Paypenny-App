@@ -1,0 +1,80 @@
+.wallet-main-page{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.wallet-first-page{
+    background-image: url("C:\Users\hp\OneDrive\Desktop\payenny\public\media/wallet.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wallet-first-page{
+    flex-basis: 40%;
+    height: 600px;
+}
+.wallet-second-page p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    
+}
+.wallet-first-page .save-money{
+    font-size: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 35%;
+    color: yellow;
+    text-shadow: 0px 0px 0px #0a2f58, 1px 1px 1px #0a2f58, 2px 2px 2px #0a2f58, 3px 3px 3px red;
+    
+}
+.wallet-second-page{
+    flex-basis: 40%;
+}
+.wallet-second-page .second-header{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-top: 10%;
+    margin-bottom: 10px;
+    color: #fff;
+    /* text-shadow: 0px 0px 0px #0a2f58, 1px 1px 1px #0a2f58, 2px 2px 2px #0a2f58, 3px 3px 3px red; */
+}
+.wallet-second-page a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #0a2f58;
+}
+.second-wallet-para-head{
+    color: yellow !important;
+}
+.wallet-second-page .wallet-subpage{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wallet-background{
+    background:  #0083aa;
+    padding-top: 3%;
+    padding-bottom: 6%;
+}
+
+@media screen and (max-width:768px){
+    .wallet-main-page{
+      display: flex ;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .wallet-first-page , .wallet-second-page{
+      width: 90% !important;
+      margin-bottom: 30px;
+    }
+    .save-money{
+        margin-bottom: 10%;
+    }
+  }
+  .earn-process:hover{
+      color: yellow;
+  }

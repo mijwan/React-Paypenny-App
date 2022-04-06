@@ -1,0 +1,70 @@
+.midCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    transition: 250ms ease-out;
+  }
+  
+  .midCard img {
+    width: 30%;
+    height: 30%;
+  }
+
+  .midCard h5{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+
+  .midCard p{
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .create-Container{
+    padding: 3% 0;
+  }
+
+
+
+  /*-------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  .count-box img{
+    width: 30% !important;
+  }
+  .counts .count-box{
+    min-height: 0 !important;
+  }
+}
+.create-account-background{
+  background: rgb(0, 186, 242);
+}
+.count-box img{
+  width: 42%;
+}
+#counts .col-lg-3 .purecounter{
+  font-size: 21px;
+  font-weight: 700;  
+  color: #fff;
+  padding-top: 15px;
+}
+.counts .choose-title{
+  font-size: 15px;
+  padding-top: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+.counts .count-box {
+  padding: 20px 34px 0 34px;
+  margin-bottom: 15px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  border-radius: 15px;
+  min-height: 300px;
+}
+

@@ -1,0 +1,111 @@
+@media screen and (max-width:768px){
+    .getApp-main{
+        flex-direction: column;
+        width: 95%;
+        margin-left: 15px;
+    }
+    .getApp-part{
+        margin-bottom: 8%;
+    }
+    .getApp-part p{
+        font-weight: 500 !important;
+        padding-bottom: 10%;
+    }
+    .getApp-part1 p{
+        font-weight: 500 !important;
+        padding-bottom: 5%;
+    }
+}
+.getApp-background{
+    padding: 5% 0;
+}
+.getApp-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.getApp-part, .getApp-part1{
+    flex-basis: 35%;
+    padding-right: 20px;
+    text-align: justify;
+    box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 35%);
+    min-height: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+.getApp-part p{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    text-shadow: 0px 0px 0px #fff, 1px 1px 1px #fff, 2px 2px 2px #fff, 3px 3px 3px #fff;
+}
+.getApp-part1 p{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    text-shadow: 0px 0px 0px #fff, 1px 1px 1px #fff, 2px 2px 2px #fff, 3px 3px 3px #fff;
+}
+.getApp-part img{
+    width: 100%;
+}
+.getApp-part1 img{
+    width: 40%;
+    padding-bottom: 20px;
+    margin-left: 24%;
+}
+.social-icon .fa-brands{
+    margin-left: 17%;
+    font-size: 30px;
+    margin-top: 7%;
+    color: #000000;
+}.social-icon .fa-brands:hover{
+    transform: scale(1.1);
+}.items-align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon .fa-twitter{
+ margin-right: 20px;
+}
+
+
+/* Brand Ambassador */
+.brand-Ambassador-Program{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:0 9%;
+    /* background-color: rgb(0, 186, 242); */
+}
+.brand-Ambassador-header{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.brand-Ambassador-content{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 500;
+}
+.brand-Ambassador-btn{
+   margin-bottom: 2%;
+}
+.brand-Ambassador-btn .band-start-btn{
+    background: #0F4A8A;
+    border-radius: 50px;
+    padding: 1rem 1.5rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 33rem;
+    margin: 2rem 0;
+}

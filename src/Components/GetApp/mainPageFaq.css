@@ -1,0 +1,76 @@
+@media screen and (max-width: 768px) {
+    .mainFaq-area{
+        flex-direction: column;
+        width: 95%;
+        margin-left: 15px;
+    }
+    .mainFaq-part{
+        margin-bottom: 8%;
+    }
+    .mainFaq-part h3{
+        font-weight: 500 !important;
+        font-size: 25px !important;
+    }
+    .mainFaq-part1 h3{
+        font-weight: 500 !important;
+        font-size: 25px !important;
+    }
+    .mainFaq-background .mainFaq-header{
+        font-size: 30px !important;
+        padding-bottom: 10%;
+    }
+}
+.mainFaq-area{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mainFaq-part , .mainFaq-part1{
+    flex-basis: 35%;
+    padding-right: 20px;
+    text-align: justify;
+    box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 35%);
+    min-height: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 25px;
+    min-height: 320px;
+}
+.mainFaq-part h3{
+    color: #0F4A8A;
+    font-family: "Roboto", Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 34px;
+}
+.mainFaq-part1 h3{
+    color: #0F4A8A;
+    font-family: "Roboto", Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 34px;
+}
+.mainFaq-part p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.mainFaq-part1 p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.mainFaq-background{
+    padding: 3% 0 5% 0;
+    background-color: #F0FBFF;
+}
+.mainFaq-header{
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 37px;
+    font-weight: 600;
+    padding-bottom: 2%;
+    margin-left: 10%;
+}

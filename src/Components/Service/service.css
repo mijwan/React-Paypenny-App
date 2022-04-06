@@ -1,0 +1,125 @@
+
+/* SERVICE */
+/*--------------------*/
+.icon-service{
+    background-color: #0a2f58;
+	padding-top: 2%;
+	padding-bottom: 4%;
+}
+
+.service-Image{
+	width: 100%;
+}
+#mu-service {
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-service-area {
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-service-header {
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.mu-service-header .mu-heading-title{
+	color: #fff;
+	text-shadow: 2px 2px 2px #0a2f58 , 3px 3px 3px #00baf2;
+	margin-bottom: 30px;
+   font-weight: 700;
+	position: relative;
+    text-transform: capitalize;
+    text-align: center;
+	font-size: 45px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mu-service-content{
+	display: inline;
+	float: left;
+	width: 100%;
+}
+.mu-service-content .col-sm-6:hover{
+    transform: scale(1.01);
+}
+.mu-service-content-single {
+  background-color: #00baf2;
+  display: inline;
+  float: left;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 25px 10px;
+  width: 100%;
+  border-radius: 15px;
+  min-height: 290px;
+}
+.mu-service-content-single1{
+	background-color: #0f4a8a;
+	display: inline;
+	float: left;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 25px 10px;
+	width: 100%;
+	border-radius: 15px;
+  }
+  .mu-service-content-single1 h4{
+	  color: #fff;
+  }
+  .mu-service-content-single1 p{
+    color: #fff !important;
+  }
+.mu-service-icon-box {
+	font-size: 50px;
+	margin-bottom: 20px;
+	display: inline-block;
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	line-height: 75px;
+}
+
+.mu-service-content-single h4{
+	font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.mu-service-content-single p {
+	font-size: 16px;
+	margin-bottom: 0;
+	color: #fff;
+	letter-spacing: 0.5px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.mu-service-area .mu-service-content .fa{
+  color: #061046;
+}
+
+.mu-service-area .mu-service-content .fas{
+  color: #061046;
+}
+
+.icon-service .benefits-para{
+	margin-top: 3%;
+}
+.benefits-para p{
+	color: #fff;
+}
+.service-split-gif{
+	width: 100%;
+	border-radius: 50%;
+}

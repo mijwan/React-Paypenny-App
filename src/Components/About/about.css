@@ -1,0 +1,65 @@
+ @media screen and (max-width:768px) {
+  .why-choose-main{
+    flex-direction: column;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .why-choose-box{
+    box-shadow: none !important;
+    margin: 0 !important;
+  }
+  .why-choose-part img{
+    width: 35% !important;
+    margin-left: 9% !important;
+  }
+  .why-choose-part1 img{
+    width: 100% !important;
+  }
+  .why-choose-part{
+    width: 90% ;
+   
+  }  
+  .why-choose-part1{
+    width: 90%;
+  }
+  .why-choose-background .why-choose-us-header{
+    font-size: 30px;
+  }
+} 
+
+  .why-choose-main{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .why-choose-box{
+    margin: 3% 9%;
+    box-shadow: 0px 0px 10px 0px rgb(135 135 135 / 30%);
+    border-radius: 25px;
+     
+  }
+  .why-choose-part, .why-choose-part1{
+    flex-basis: 40%;
+    padding: 30px;
+  }
+  .why-choose-part p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #000000;
+
+  }
+  .why-choose-part img{
+    width: 25%;
+    margin-left: 6%;
+  }
+  .why-choose-part1 img{
+    width: 85%;
+  }
+  .why-choose-safe-image{
+    padding-top: 5%;
+  } 
+ .why-choose-background .why-choose-us-header{
+   font-weight: 700;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 4% 9% 0 9%;
+ }

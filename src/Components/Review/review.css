@@ -1,0 +1,156 @@
+@media screen and (max-width:768px){
+    .review-client , .review-client1{
+      flex-direction: column;
+    }
+    .client-review1, .client-review2 , .client-review3{
+      width: 90%;
+      margin-bottom: 25px;
+    }
+    .client-review4{
+        margin-bottom: 30px;
+        margin-left: 0 !important;
+        width: 90%;
+    }
+    .client-review5{
+        margin-right: 0 !important;
+        width: 90%;
+    }
+    .mu-heading-title{
+        font-size: 36px !important;
+        padding: 3% 0;
+    }
+    .review-home-page .reveiew-header{
+        font-size: 36px !important;
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+    .review-home-page .review-content{
+        font-size: 20px !important;
+        padding-bottom: 3%;
+    }
+  }
+ 
+.review-client{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.review-client1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   margin-top: 5%;
+}
+.review-home-page{
+    background-color: #0083aa ;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.review-home-page .reveiew-header{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    margin-bottom: 30px;
+    text-shadow: 0px 0px 0px #0a2f58, 1px 1px 1px #0a2f58, 2px 2px 2px #0a2f58, 3px 3px 3px #0a2f58;
+}
+.review-home-page .review-content{
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 4%;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #fff;
+  margin-top: 10px;
+}
+.client-review-box{
+    border-top: 5px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray ;
+    border-bottom:2px solid gray ;
+    border-radius: 15px;
+    flex-basis: 25%;
+    line-height: 30px;
+   min-height: 430px;
+    background: #0a2f58 ;
+}
+/* .client-review2{
+    border-top: 5px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray ;
+    border-bottom:2px solid gray ;
+    line-height: 30px;
+    border-radius: 15px;
+    flex-basis: 25%;
+   min-height: 430px;
+   background: #0a2f58 ;
+} */
+/* .client-review3{
+    border-top: 5px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray ;
+    border-bottom:2px solid gray ;
+    border-radius: 15px;
+    flex-basis: 25%;
+    min-height: 430px;
+    line-height: 30px;
+    background: #0a2f58 ;
+} */
+.client-review4{
+    border-top: 5px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray ;
+    border-bottom:2px solid gray ;
+    border-radius: 15px;
+    flex-basis: 25%;
+    min-height: 430px;
+    line-height: 30px;
+    margin-left: 15%;
+    background: #0a2f58 ;
+}
+.client-review5{
+    border-top: 5px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray ;
+    border-bottom:2px solid gray ;
+    border-radius: 15px;
+    flex-basis: 25%;
+    line-height: 30px;
+    min-height: 430px;
+    margin-right: 15%;
+    background: #0a2f58 ;
+}
+.checked{
+    color: orange;
+    padding-right: 8px;
+    font-size: 20px;
+}
+.starr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+ .client-quote{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 0.5px;
+}
+.client-quote p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+.quote-font{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: yellow;
+    font-size: 40px;
+}
+ .client-name{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

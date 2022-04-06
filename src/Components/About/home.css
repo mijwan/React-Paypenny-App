@@ -1,0 +1,113 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px){
+.main-header-page{
+ flex-direction: column;
+}
+.home-section{
+  flex-direction: column;
+}
+.logo-header{
+  width: 50%;
+}
+.logo-header-content{
+  font-size: 36px !important;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 7%;
+}
+.component-part{
+  width: 90%;
+  margin-top: 10%;
+}
+.component-part1{
+  width: 90%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.home-page-header{
+  font-size: 30px !important;
+  padding-bottom: 5%;
+}
+.home-page-content{
+  font-size: 20px !important;
+}
+}
+
+.main-header-page .logo-header img{
+  width: 100%;
+}
+.main-header-page{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-header{
+  flex-basis: 12%;
+}
+
+.logo-header-content{
+  font-weight: 700;
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 2px 2px #00baf2 , 3px 3px 3px #00baf2;
+  color: #0a2f58;
+  text-align: center;
+  padding-right: 7%;
+}
+.home-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.component-part{
+  flex-basis: 35%;
+}
+.component-part1{
+  flex-basis: 50%;
+}
+
+
+.homepage .heading{
+    font-weight: 700;
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cad-header{
+  color: #0a2f58;
+  text-shadow: 2px 2px 2px #e5e9e9 , 3px 3px 3px #e5e9e9;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+}
+.home-page-header{
+  color: #fff;
+  text-align: center ;
+  text-shadow: 2px 2px 2px #0a2f58 , 3px 3px 3px #0a2f58;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+}
+.home-page-content{
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 2px #0a2f58 , 3px 3px 3px #0a2f58;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  margin-top: 10px;
+}
+.home-background{
+  background-color: #0f4a8a;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}

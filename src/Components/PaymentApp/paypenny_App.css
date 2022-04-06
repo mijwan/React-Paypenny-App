@@ -1,0 +1,63 @@
+@media screen and (max-width: 768px) {
+    .paypenny-app-main{
+        flex-direction: column !important;
+    }
+    .paypenny-app-part , .paypenny-app-part1{
+        width: 90%;
+    }
+    .paypenny-app-part .paypenny-app-header{
+        font-size: 25px !important;
+    }
+    .paypenny-app-part p{
+        font-size: 18px !important;
+        font-weight: 400;
+    }
+    .paypenny-app-part1 img{
+        width: 100% !important;
+        margin: 0 !important;
+        height: auto;
+    }
+}
+.paypenny-app-background{
+    margin: 2% 6%;
+}
+.paypenny-app-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.paypenny-app-part , .paypenny-app-part1{
+    flex-basis: 40%;
+}
+.paypenny-app-part .paypenny-app-btn{
+    background: black;
+    border-radius: 50px;
+    padding: 1rem 1.5rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    /* width: 33rem; */
+    margin: 2rem 0;
+}
+.paypenny-app-part1 img{
+    width: 44%;
+    margin-left: 20%;
+}
+.paypenny-app-part .paypenny-app-header{
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+.paypenny-app-part p{
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 31px;
+    padding-bottom: 20px;
+}

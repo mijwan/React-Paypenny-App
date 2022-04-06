@@ -1,0 +1,51 @@
+.navbar-background{
+    background-color: #0F4A8A;
+}
+.navbar-background .logo-main-header img{
+    width: 65%;
+  }
+.logo-Interac_Brand{
+    flex-basis: 18% ;
+}
+.logo-main-header{
+    flex-basis: 20%;
+}
+  .header-logo-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+  }
+  .interac-logo-image{
+    padding-bottom: 5px;
+  }
+  .earn-wallet-log{
+    width: 40% !important;
+  }
+  .navbar-background .logo-Interac_Brand img{
+   width: 30%;
+   border-radius: 15px;
+  }
+  
+  .brand-name-earnWallet {
+    font-size: 31px;
+    /* border: 2px solid black; */
+    margin-left: 15px;
+    padding: 10px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.brand-name-earnWallet:hover{
+  color: rgb(0, 186, 242);
+}
+@media  screen and (max-width:768px) {
+  .logo-Interac_Brand {
+    flex-basis: 34%;
+}
+.logo-main-header {
+  flex-basis: 39%;
+}  
+}
